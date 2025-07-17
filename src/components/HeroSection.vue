@@ -24,19 +24,7 @@
         </div>
       </div>
 
-      <!-- Scrolling Text Banner -->
-      <div class="position-absolute bottom-0 start-0 w-100 overflow-hidden" style="height: 60px;">
-        <div class="d-flex align-items-center h-100 text-white" style="background: rgba(0,0,0,0.3);">
-          <div class="marquee">
-            <span class="me-5">IN THE HEAT DOME</span>
-            <span class="me-5">NO SAUCE COMING IN HOT</span>
-            <span class="me-5">MADE FROM SCRATCH MEAT</span>
-            <span class="me-5">BRING THE HEAT HOME</span>
-            <span class="me-5">NO SAUCE COMING IN HOT</span>
-            <span class="me-5">MADE FROM</span>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </section>
 </template>
@@ -110,22 +98,6 @@ onUnmounted(() => {
   }
 }
 
-.marquee {
-  display: flex;
-  animation: scroll 20s linear infinite;
-  white-space: nowrap;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
 
-@keyframes scroll {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
 
 </style>
