@@ -4,9 +4,9 @@
       <div class="row align-items-center min-vh-100">
         <div class="col-lg-7">
           <h1 class="hero-text mb-4">
-            SAUCE MADE<br>
-            WITH LOVE IN<br>
-            KANSAS CITY
+            MADE WITH LOVE<br>
+            AT 403 FOOD<br>
+            PROCESSING
           </h1>
           <p class="hero-subtitle">
             SINCE 1970... SOMETHING.
@@ -14,16 +14,16 @@
         </div>
         <div class="col-lg-5">
           <div class="text-center">
-            <img 
-              src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop" 
-              alt="BBQ Sauce Being Poured" 
+            <img
+              src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop"
+              alt="BBQ Sauce Being Poured"
               class="img-fluid rounded-3 shadow-lg"
               style="max-height: 400px; object-fit: cover;"
             >
           </div>
         </div>
       </div>
-      
+
       <!-- Scrolling Text Banner -->
       <div class="position-absolute bottom-0 start-0 w-100 overflow-hidden" style="height: 60px;">
         <div class="d-flex align-items-center h-100 text-white" style="background: rgba(0,0,0,0.3);">
