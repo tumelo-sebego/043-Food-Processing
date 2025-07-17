@@ -24,49 +24,28 @@
         </div>
       </div>
 
-      
+
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
 import { onMounted, onUnmounted} from 'vue'
+import { updateFontSize } from '../utils/styleFunctions'
 
 // const heroText = ref<HTMLElement | null>(null)
 
-const updateFontSize = () => {
-  const element = document.querySelector('.hero-text') as HTMLElement
-  if (!element) return
-
-  const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
-
-  // Dynamic font sizing based on viewport width
-  let fontSize: number
-
-  if (vw >= 1400) {
-    fontSize = Math.min(6.5, vw * 0.04) // Max 5.5rem for very large screens
-  } else if (vw >= 1200) {
-    fontSize = Math.min(6, vw * 0.038) // 4.5-5rem for large screens
-  } else if (vw >= 992) {
-    fontSize = Math.min(5.5, vw * 0.036) // 3.5-4.5rem for medium screens
-  } else if (vw >= 768) {
-    fontSize = Math.min(4.5, vw * 0.034) // 2.5-3.5rem for tablets
-  } else if (vw >= 576) {
-    fontSize = Math.min(3.8, vw * 0.048) // 2.2-2.8rem for large phones
-  } else {
-    fontSize = Math.min(3.2, vw * 0.055) // 1.8-2.2rem for small phones
-  }
-
-  element.style.fontSize = `${fontSize}rem`
+const updateHeroFontSize = () => {
+  updateFontSize('.hero-text', 6.5)
 }
 
 onMounted(() => {
-  updateFontSize()
-  window.addEventListener('resize', updateFontSize)
+  updateHeroFontSize()
+  window.addEventListener('resize', updateHeroFontSize)
 })
 
 onUnmounted(() => {
-  window.removeEventListener('resize', updateFontSize)
+  window.removeEventListener('resize', updateHeroFontSize)
 })
 </script>
 
