@@ -19,18 +19,18 @@
 
 <style scoped>
 .banner-section {
-  height: 60px;
+  height: 4rem;
   overflow: hidden;
   width: 100%;
 }
 
 .marquee {
   display: flex;
-  animation: scroll 20s linear infinite;
+  animation: scroll 50s linear infinite;
   white-space: nowrap;
-  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-size: 2rem;
 }
 
 @keyframes scroll {
