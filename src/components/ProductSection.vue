@@ -33,5 +33,19 @@
 </template>
 
 <script setup lang="ts">
-// Product section component
+import { onMounted, onUnmounted } from 'vue'
+import { updateFontSize } from '../utils/styleFunctions'
+
+const updateProductTitleFontSize = () => {
+  updateFontSize('.product-title', 5)
+}
+
+onMounted(() => {
+  updateProductTitleFontSize()
+  window.addEventListener('resize', updateProductTitleFontSize)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateProductTitleFontSize)
+})
 </script>
