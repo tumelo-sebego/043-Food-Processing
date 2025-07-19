@@ -141,13 +141,15 @@ body {
   .product-section{
     /* height: 110vh; */
   }
+
+ 
 }
 
 @media (min-width: 768px) {
-  .product-section {
+  .product-section, .location-section {
     height: 100vh;
   }
-  .product-section .container-fluid {
+  .product-section .container-fluid, .location-section .container {
     height: 100%;
   }
 }

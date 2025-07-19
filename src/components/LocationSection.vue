@@ -1,8 +1,8 @@
 <template>
-  <section class="location-section py-5">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 mb-5">
+  <section class="location-section">
+    <div class="container-fluid p-4 p-md-0 h-100">
+      <div class="row align-items-center g-0 h-100">
+        <div class="col-lg-6 mb-5 px-md-5">
           <h2 class="location-title mb-4">
             STOP BY OUR<br>
             KANSAS CITY<br>
@@ -16,12 +16,13 @@
             GET DIRECTIONS
           </button>
         </div>
-        <div class="col-lg-6">
-          <div class="text-center">
+        <div class="col-lg-6 h-100">
+          <div class="text-center h-100">
             <img
               src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
               alt="BBQ Restaurant Interior"
-              class="img-fluid shadow-lg"
+              class="img-fluid h-100"
+              style="object-fit: cover;"
             >
           </div>
         </div>
