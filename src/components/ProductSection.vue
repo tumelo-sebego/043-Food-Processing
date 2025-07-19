@@ -4,7 +4,7 @@
       <div class="row align-items-center g-0 h-100">
         <div class="col-lg-6 p-0 h-100">
           <img
-            src="https://images.pexels.com/photos/4518843/pexels-photo-4518843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&fit=crop"
+            src="../assets/images/product1.jpg"
             alt="Jones BBQ Sauce Bottle"
             class="img-fluid h-100"
             style="object-fit: cover;"

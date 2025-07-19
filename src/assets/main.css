@@ -98,7 +98,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 23.3728px;
-  color: #1d1d1b;
+  color: #1d1d1b !important;
 }
 
 @media (min-width: 992px) {
@@ -142,7 +142,7 @@ body {
     /* height: 110vh; */
   }
 
- 
+
 }
 
 @media (min-width: 768px) {
