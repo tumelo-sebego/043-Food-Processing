@@ -1,6 +1,6 @@
 <template>
   <section class="hero-section d-flex align-items-center">
-    <div class="container">
+    <div class="container mt-md-5">
       <div class="row align-items-center min-vh-100">
         <div class="col-md-7 text-column">
           <h1 class="hero-text mb-4">
@@ -15,7 +15,7 @@
         <div class="col-md-5 image-column">
           <div class="text-center image-container">
             <img
-              src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop"
+              src="../assets/images/header.jpg"
               alt="BBQ Sauce Being Poured"
               class="img-fluid shadow-lg md-relative"
               style="max-height: 33rem; right:6rem; object-fit: cover; transform: rotate(10deg);"
