@@ -53,6 +53,7 @@ onUnmounted(() => {
 .hero-section {
   min-height: 100vh;
   display: block;
+  overflow: hidden;
 }
 .text-column {
   position: relative;
