@@ -78,9 +78,9 @@ body {
 }
 
 .nav-link {
-  font-weight: 600;
+  /* font-weight: 600; */
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   font-size: 0.9rem;
 }
 
