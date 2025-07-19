@@ -43,7 +43,32 @@
 </template>
 
 <script setup lang="ts">
-// Navigation component
+import { ref, onMounted, onUnmounted } from 'vue';
+
+const navbarCollapse = ref<HTMLElement | null>(null);
+const navbarToggler = ref<HTMLElement | null>(null);
+
+const handleOutsideClick = (event: MouseEvent) => {
+  if (
+    navbarCollapse.value &&
+    navbarToggler.value &&
+    navbarCollapse.value.classList.contains('show') &&
+    !navbarCollapse.value.contains(event.target as Node) &&
+    !navbarToggler.value.contains(event.target as Node)
+  ) {
+    navbarToggler.value.click();
+  }
+};
+
+onMounted(() => {
+  navbarCollapse.value = document.getElementById('navbarNav');
+  navbarToggler.value = document.querySelector('.navbar-toggler');
+  document.addEventListener('click', handleOutsideClick);
+});
+
+onUnmounted(() => {
+  document.removeEventListener('click', handleOutsideClick);
+});
 </script>
 
 <style scoped>
