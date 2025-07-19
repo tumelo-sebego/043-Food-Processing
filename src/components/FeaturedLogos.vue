@@ -5,19 +5,19 @@
         <h3 class="text-uppercase fw-bold text-muted">Featured In</h3>
       </div>
       <div class="row align-items-center justify-content-center">
-        <div class="col-6 col-md-2 text-center mb-3">
+        <div class="col-12 col-md-2 text-center mb-3">
           <div class="fw-bold text-uppercase" style="color: var(--jones-red); font-size: 1.2rem;">FEAST</div>
         </div>
-        <div class="col-6 col-md-2 text-center mb-3">
+        <div class="col-12 col-md-2 text-center mb-3">
           <div class="fw-bold text-uppercase" style="color: var(--jones-red); font-size: 1.2rem;">EATER</div>
         </div>
-        <div class="col-6 col-md-2 text-center mb-3">
+        <div class="col-12 col-md-2 text-center mb-3">
           <div class="fw-bold text-uppercase" style="color: var(--jones-red); font-size: 1.2rem;">VANITY FAIR</div>
         </div>
-        <div class="col-6 col-md-2 text-center mb-3">
+        <div class="col-12 col-md-2 text-center mb-3">
           <div class="fw-bold text-uppercase" style="color: var(--jones-red); font-size: 1.2rem;">WSJ</div>
         </div>
-        <div class="col-6 col-md-2 text-center mb-3">
+        <div class="col-12 col-md-2 text-center mb-3">
           <div class="fw-bold text-uppercase" style="color: var(--jones-red); font-size: 1.2rem;">THRILLIST</div>
         </div>
       </div>

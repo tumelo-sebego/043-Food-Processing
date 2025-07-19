@@ -5,6 +5,8 @@
   --jones-brown: #8b4513;
   --jones-cream: #faf5f0;
   --jones-dark: #2d3748;
+  --jones-darker-red: #9a640f;
+  --jones-darker-brown: #6d370f;
 }
 
 body {
@@ -56,12 +58,24 @@ body {
   background-color: var(--jones-red);
   border: none;
   color: white;
-  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 12px 30px;
   border-radius: 25px;
   transition: all 0.3s ease;
+  box-shadow: -4px 5px var(--jones-darker-red);
+}
+
+.btn-jones-brown {
+  background-color: var(--jones-brown);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: -4px 5px var(--jones-darker-brown);
 }
 
 .btn-jones:hover {
@@ -112,8 +126,6 @@ body {
 }
 
 .location-title {
-  font-size: 2.5rem;
-  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
@@ -121,14 +133,6 @@ body {
 @media (max-width: 768px) {
   .hero-text {
     font-size: 2.5rem;
-  }
-
-  /* .product-title {
-    font-size: 2rem;
-  } */
-
-  .location-title {
-    font-size: 1.8rem;
   }
 
   .product-section{
