@@ -17,7 +17,7 @@
             <img
               src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop"
               alt="BBQ Sauce Being Poured"
-              class="img-fluid rounded-3 shadow-lg md-relative"
+              class="img-fluid shadow-lg md-relative"
               style="max-height: 33rem; right:6rem; object-fit: cover; transform: rotate(10deg);"
             >
           </div>

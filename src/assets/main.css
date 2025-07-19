@@ -41,7 +41,7 @@ body {
 .product-section {
   background: var(--jones-brown);
   color: white;
-  height: 110vh;
+  /* height: 110vh; */
 }
 
 .product-title {
@@ -60,10 +60,11 @@ body {
   color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 12px 30px;
+  padding: 1rem 2.5rem;
   border-radius: 25px;
   transition: all 0.3s ease;
   box-shadow: -4px 5px var(--jones-darker-red);
+  font-size: 1.25rem;
 }
 
 .btn-jones-brown {
@@ -72,10 +73,11 @@ body {
   color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 12px 30px;
+  padding: 1rem 2.5rem;
   border-radius: 25px;
   transition: all 0.3s ease;
   box-shadow: -4px 5px var(--jones-darker-brown);
+  font-size: 1.25rem;
 }
 
 .btn-jones:hover {
@@ -95,7 +97,8 @@ body {
   /* font-weight: 600; */
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 0.9rem;
+  font-size: 23.3728px;
+  color: #1d1d1b;
 }
 
 @media (min-width: 992px) {
@@ -136,7 +139,7 @@ body {
   }
 
   .product-section{
-    height: 110vh;
+    /* height: 110vh; */
   }
 }
 

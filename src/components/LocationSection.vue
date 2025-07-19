@@ -21,7 +21,7 @@
             <img
               src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
               alt="BBQ Restaurant Interior"
-              class="img-fluid rounded-3 shadow-lg"
+              class="img-fluid shadow-lg"
             >
           </div>
         </div>

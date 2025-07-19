@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--jones-red);">
+  <nav class="navbar navbar-expand-lg navbar-dark" :class="{ 'navbar--hidden': !showNavbar }" style="background-color: var(--jones-red);">
     <div class="container">
       <a class="navbar-brand text-white" href="#">
         <i class="bi bi-fire me-2"></i>
@@ -47,6 +47,8 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
 const navbarCollapse = ref<HTMLElement | null>(null);
 const navbarToggler = ref<HTMLElement | null>(null);
+const showNavbar = ref(true);
+const lastScrollPosition = ref(0);
 
 const handleOutsideClick = (event: MouseEvent) => {
   if (
@@ -60,18 +62,44 @@ const handleOutsideClick = (event: MouseEvent) => {
   }
 };
 
+const handleScroll = () => {
+  const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  if (currentScrollPosition < 0) {
+    return;
+  }
+  if (Math.abs(currentScrollPosition - lastScrollPosition.value) < 50) {
+    return;
+  }
+  showNavbar.value = currentScrollPosition < lastScrollPosition.value;
+  lastScrollPosition.value = currentScrollPosition;
+};
+
 onMounted(() => {
   navbarCollapse.value = document.getElementById('navbarNav');
   navbarToggler.value = document.querySelector('.navbar-toggler');
   document.addEventListener('click', handleOutsideClick);
+  window.addEventListener('scroll', handleScroll);
 });
 
 onUnmounted(() => {
   document.removeEventListener('click', handleOutsideClick);
+  window.removeEventListener('scroll', handleScroll);
 });
 </script>
 
 <style scoped>
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 1020;
+}
+
+.navbar--hidden {
+  top: -100px;
+}
+
 @media (max-width: 991.98px) {
   .navbar-collapse {
     position: absolute;
@@ -81,9 +109,6 @@ onUnmounted(() => {
     background-color: var(--jones-red);
     padding: 1rem;
     z-index: 1000;
-  }
-  .navbar {
-    position: relative;
   }
 }
 </style>
