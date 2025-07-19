@@ -15,8 +15,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link text-white" href="#">HOME</a>
           </li>
@@ -31,7 +31,7 @@
           </li>
         </ul>
         
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center nav-right">
           <i class="bi bi-cart text-white me-3" style="font-size: 1.2rem;"></i>
           <button class="btn btn-outline-light btn-sm">
             SHOP SAUCES

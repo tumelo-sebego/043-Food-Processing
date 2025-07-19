@@ -25,3 +25,15 @@ export const updateFontSize = (selector: string, baseFontSize: number = 6.5) => 
 
   element.style.fontSize = `${fontSize}rem`;
 }
+
+export const updateProductTitleFontSize = (selector: string) => {
+  const element = document.querySelector(selector) as HTMLElement;
+  if (!element) return;
+
+  const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+  if (vw < 768) {
+    element.style.fontSize = '2.7rem';
+  } else {
+    element.style.fontSize = '5rem';
+  }
+};
