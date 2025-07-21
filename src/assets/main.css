@@ -104,7 +104,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 23.3728px;
-  color: #1d1d1b !important;
+  color: var(--jones-darker-brown);
 }
 
 @media (min-width: 992px) {

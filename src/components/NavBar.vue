@@ -1,5 +1,9 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark" :class="{ 'navbar--hidden': !showNavbar }" style="background-color: var(--jones-red);">
+  <nav
+    class="navbar navbar-expand-lg navbar-dark"
+    :class="{ 'navbar--hidden': !showNavbar }"
+    style="background-color: var(--jones-red); height: 6rem"
+  >
     <div class="container">
       <a class="navbar-brand text-white" href="#">
         <i class="bi bi-fire me-2"></i>
@@ -32,10 +36,8 @@
         </ul>
 
         <div class="d-flex align-items-center nav-right">
-          <i class="bi bi-cart text-black me-3" style="font-size: 1.2rem;"></i>
-          <button class="btn btn-outline-light btn-sm">
-            SHOP SAUCES
-          </button>
+          <i class="bi bi-cart text-black me-3" style="font-size: 1.2rem"></i>
+          <button class="btn btn-jones-brown">SHOP SAUCES</button>
         </div>
       </div>
     </div>
@@ -43,12 +45,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue'
 
-const navbarCollapse = ref<HTMLElement | null>(null);
-const navbarToggler = ref<HTMLElement | null>(null);
-const showNavbar = ref(true);
-const lastScrollPosition = ref(0);
+const navbarCollapse = ref<HTMLElement | null>(null)
+const navbarToggler = ref<HTMLElement | null>(null)
+const showNavbar = ref(true)
+const lastScrollPosition = ref(0)
 
 const handleOutsideClick = (event: MouseEvent) => {
   if (
@@ -58,33 +60,33 @@ const handleOutsideClick = (event: MouseEvent) => {
     !navbarCollapse.value.contains(event.target as Node) &&
     !navbarToggler.value.contains(event.target as Node)
   ) {
-    navbarToggler.value.click();
+    navbarToggler.value.click()
   }
-};
+}
 
 const handleScroll = () => {
-  const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
   if (currentScrollPosition < 0) {
-    return;
+    return
   }
   if (Math.abs(currentScrollPosition - lastScrollPosition.value) < 50) {
-    return;
+    return
   }
-  showNavbar.value = currentScrollPosition < lastScrollPosition.value;
-  lastScrollPosition.value = currentScrollPosition;
-};
+  showNavbar.value = currentScrollPosition < lastScrollPosition.value
+  lastScrollPosition.value = currentScrollPosition
+}
 
 onMounted(() => {
-  navbarCollapse.value = document.getElementById('navbarNav');
-  navbarToggler.value = document.querySelector('.navbar-toggler');
-  document.addEventListener('click', handleOutsideClick);
-  window.addEventListener('scroll', handleScroll);
-});
+  navbarCollapse.value = document.getElementById('navbarNav')
+  navbarToggler.value = document.querySelector('.navbar-toggler')
+  document.addEventListener('click', handleOutsideClick)
+  window.addEventListener('scroll', handleScroll)
+})
 
 onUnmounted(() => {
-  document.removeEventListener('click', handleOutsideClick);
-  window.removeEventListener('scroll', handleScroll);
-});
+  document.removeEventListener('click', handleOutsideClick)
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
 
 <style scoped>
