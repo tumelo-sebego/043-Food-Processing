@@ -1,24 +1,23 @@
 <template>
-  <section class="hero-section d-flex align-items-center">
-    <div class="container mt-md-5">
-      <div class="row align-items-center min-vh-100">
-        <div class="col-md-7 text-column">
-          <h1 class="hero-text mb-4">
-            MADE WITH LOVE<br />
-            AT <span>403</span> FOOD<br />
-            PROCESSING
+  <section class="news-section d-flex pb-5">
+    <div class="container my-md-5">
+      <div class="row">
+        <div class="col title text-center text-column">
+          <h1 class="news-text mb-4">
+            STAY IN THE<br />
+            KNOW
           </h1>
-          <p class="hero-subtitle">SINCE 1970... SOMETHING.</p>
+          <p class="">SINCE 1970... SOMETHING.</p>
         </div>
-        <div class="col-md-5 image-column">
-          <div class="text-center image-container">
-            <img
-              src="../assets/images/header.jpg"
-              alt="BBQ Sauce Being Poured"
-              class="img-fluid shadow-lg md-relative"
-              style="max-height: 33rem; right: 6rem; object-fit: cover; transform: rotate(10deg)"
-            />
-          </div>
+      </div>
+      <div class="row g-0 mt-5">
+        <div class="col-md-9">
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" class="form-control mb-3" required />
+          </form>
+        </div>
+        <div class="col-md-3 text-center">
+          <button class="btn btn-jones-brown">SUBSCRIBE</button>
         </div>
       </div>
     </div>
@@ -32,7 +31,7 @@ import { updateFontSize } from '../utils/styleFunctions'
 // const heroText = ref<HTMLElement | null>(null)
 
 const updateHeroFontSize = () => {
-  updateFontSize('.hero-text', 6.9)
+  updateFontSize('.news-text', 6.9)
 }
 
 onMounted(() => {
@@ -46,10 +45,11 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-.hero-section {
+.news-section {
   min-height: 100vh;
   display: block;
   overflow: hidden;
+  background-color: var(--jones-dark-red);
 }
 .text-column {
   position: relative;
@@ -59,23 +59,35 @@ onUnmounted(() => {
   position: relative;
   z-index: 1;
 }
-.hero-text {
+
+.learn-more-text {
+  font-family: 'Poppins', sans-serif;
+}
+.news-text {
   font-size: 4rem;
   transition: font-size 0.5s ease-in-out;
 }
 
-.hero-text span {
-  color: white;
+.news-text span {
+  color: var(--jones-red);
+}
+
+.btn-jones-brown {
+  background-color: var(--jones-darker-red);
+}
+
+.title {
+  color: var(--jones-darker-red);
 }
 
 @media (max-width: 768px) {
-  .hero-text {
+  .news-text {
     font-size: 3rem;
   }
   .container {
     margin-top: 4rem;
   }
-  .hero-section {
+  .news-section {
     padding-bottom: 5rem;
   }
   .image-container {
@@ -84,7 +96,7 @@ onUnmounted(() => {
 }
 
 @media (max-width: 576px) {
-  .hero-text {
+  .news-text {
     font-size: 2rem;
   }
 }
@@ -92,6 +104,7 @@ onUnmounted(() => {
 @media (min-width: 768px) {
   .md-relative {
     position: relative;
+    right: 4rem;
   }
 }
 </style>

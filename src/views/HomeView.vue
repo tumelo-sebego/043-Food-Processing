@@ -22,6 +22,9 @@
 
     <!-- Scrolling Banner -->
     <ScrollingBanner />
+
+    <!-- Newsletter Section -->
+    <NewsLetterSection />
   </div>
 </template>
 
@@ -33,4 +36,5 @@ import ProductSection from '@/components/ProductSection.vue'
 import FeaturedLogos from '@/components/FeaturedLogos.vue'
 import LocationSection from '@/components/LocationSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
+import NewsLetterSection from '@/components/NewsLetterSection.vue'
 </script>
