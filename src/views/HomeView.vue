@@ -25,6 +25,9 @@
 
     <!-- Newsletter Section -->
     <NewsLetterSection />
+
+    <!-- Footer Section -->
+    <FooterSection />
   </div>
 </template>
 
@@ -37,4 +40,5 @@ import FeaturedLogos from '@/components/FeaturedLogos.vue'
 import LocationSection from '@/components/LocationSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import NewsLetterSection from '@/components/NewsLetterSection.vue'
+import FooterSection from '@/components/FooterSection.vue'
 </script>

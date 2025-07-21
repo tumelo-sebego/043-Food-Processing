@@ -7,17 +7,21 @@
             STAY IN THE<br />
             KNOW
           </h1>
-          <p class="">SINCE 1970... SOMETHING.</p>
+          <p class="news-subtitle">
+            Get saucy secrets & deals.
+            <br />
+            Straight from our kitchen.
+          </p>
         </div>
       </div>
       <div class="row g-0 mt-5">
-        <div class="col-md-9 d-flex justify-content-center align-items-center">
-          <form class="newsletter-form">
-            <input type="email" placeholder="Enter your email" class="form-control mb-3" required />
-          </form>
-        </div>
-        <div class="col-md-3 text-center">
-          <button class="btn btn-jones-brown">SUBSCRIBE</button>
+        <div class="col-12 d-flex justify-content-center">
+          <div class="newsletter-wrapper">
+            <form class="newsletter-form mb-3">
+              <input type="email" placeholder="Enter your email" class="form-control" required />
+            </form>
+            <button class="btn btn-jones-brown">SUBSCRIBE</button>
+          </div>
         </div>
       </div>
     </div>
@@ -71,6 +75,9 @@ onUnmounted(() => {
   color: var(--jones-red);
 }
 
+.news-subtitle {
+  color: var(--jones-darker-brown);
+}
 .btn-jones-brown {
   background-color: var(--jones-darker-red);
 }
@@ -80,6 +87,21 @@ onUnmounted(() => {
   border-radius: 25px;
   max-width: 16rem;
   font-family: 'Poppins';
+}
+
+.newsletter-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .newsletter-wrapper {
+    flex-direction: row;
+  }
+  .newsletter-form {
+    margin-right: 1rem;
+  }
 }
 
 .title {
