@@ -1,22 +1,20 @@
 <template>
   <section class="banner-section">
-    <div class="d-flex align-items-center h-100 text-white" style="background-color: #1a1a1a;">
+    <div class="d-flex align-items-center h-100 text-white" style="background-color: #1a1a1a">
       <div class="marquee-container">
         <div class="marquee">
-          <span class="me-5">IN THE HEAT DOME</span>
-          <span class="me-5">NO SAUCE COMING IN HOT</span>
-          <span class="me-5">MADE FROM SCRATCH MEAT</span>
-          <span class="me-5">BRING THE HEAT HOME</span>
-          <span class="me-5">NO SAUCE COMING IN HOT</span>
-          <span class="me-5">MADE FROM</span>
+          <span class="me-5">🔥 AUTHENTIC FLAVOR FROM THE HEART OF 043</span>
+          <span class="me-5">👨🏾‍🍳 CRAFTED IN SMALL BATCHES – BURSTING WITH TASTE</span>
+          <span class="me-5">👪 INSPIRED BY FAMILY, PERFECTED FOR THE TABLE</span>
+          <span class="me-5">🌿 REAL INGREDIENTS. NO SHORTCUTS. PURE FLAVOR</span>
+          <span class="me-5">🌶️ SOUTH AFRICA’S NEXT FAVORITE SAUCE STARTS HERE</span>
         </div>
         <div class="marquee">
-          <span class="me-5">IN THE HEAT DOME</span>
-          <span class="me-5">NO SAUCE COMING IN HOT</span>
-          <span class="me-5">MADE FROM SCRATCH MEAT</span>
-          <span class="me-5">BRING THE HEAT HOME</span>
-          <span class="me-5">NO SAUCE COMING IN HOT</span>
-          <span class="me-5">MADE FROM</span>
+          <span class="me-5">🔥 AUTHENTIC FLAVOR FROM THE HEART OF 043</span>
+          <span class="me-5">👨🏾‍🍳 CRAFTED IN SMALL BATCHES – BURSTING WITH TASTE</span>
+          <span class="me-5">👪 INSPIRED BY FAMILY, PERFECTED FOR THE TABLE</span>
+          <span class="me-5">🌿 REAL INGREDIENTS. NO SHORTCUTS. PURE FLAVOR</span>
+          <span class="me-5">🌶️ SOUTH AFRICA’S NEXT FAVORITE SAUCE STARTS HERE</span>
         </div>
       </div>
     </div>

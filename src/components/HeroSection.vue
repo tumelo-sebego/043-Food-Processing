@@ -4,11 +4,11 @@
       <div class="row align-items-center min-vh-100">
         <div class="col-md-7 text-column">
           <h1 class="hero-text mb-4">
-            MADE WITH LOVE<br />
-            AT <span>403</span> FOOD<br />
-            PROCESSING
+            MADE WITH<br />
+            <span> HEART</span> IN THE<br />
+            EASTERN CAPE
           </h1>
-          <p class="hero-subtitle">SINCE 1970... SOMETHING.</p>
+          <p class="hero-subtitle">CRAFTING FLAVOR SINCE 2018</p>
         </div>
         <div class="col-md-5 image-column">
           <div class="text-center image-container">
@@ -65,7 +65,7 @@ onUnmounted(() => {
 }
 
 .hero-text span {
-  color: white;
+  color: var(--jones-cream);
 }
 
 @media (max-width: 768px) {
