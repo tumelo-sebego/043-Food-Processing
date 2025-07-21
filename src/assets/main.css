@@ -3,7 +3,7 @@
   --jones-dark-red: #d6a22c;
   --jones-light-red: #feb2b2;
   --jones-brown: #8b4513;
-  --jones-cream: #faf5f0;
+  --jones-cream: #f1e8db;
   --jones-dark: #2d3748;
   --jones-darker-red: #9a640f;
   --jones-darker-brown: #6d370f;
@@ -138,18 +138,18 @@ body {
     font-size: 2.5rem;
   }
 
-  .product-section{
+  .product-section {
     /* height: 110vh; */
   }
-
-
 }
 
 @media (min-width: 768px) {
-  .product-section, .location-section {
+  .product-section,
+  .location-section {
     height: 100vh;
   }
-  .product-section .container-fluid, .location-section .container {
+  .product-section .container-fluid,
+  .location-section .container {
     height: 100%;
   }
 }
