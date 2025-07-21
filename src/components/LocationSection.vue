@@ -4,13 +4,13 @@
       <div class="row align-items-center g-0 h-100">
         <div class="col-md-6 mb-5 px-md-5">
           <h2 class="location-title mb-4">
-            STOP BY OUR<br />
-            KANSAS CITY<br />
-            LOCATION
+            FIND US IN <br />
+            EAST LONDON<br />
+            OR ORDER FROM ANYWHERE
           </h2>
           <p class="fs-5 mb-4 product-description">
-            Experience the authentic taste of Jones BBQ at our original Kansas City location where
-            it all started.
+            Get your hands on 043 Food Processing Sauce at select SPAR stores in the Eastern Cape,
+            or catch us at pop-up markets and food events around the country.
           </p>
           <button class="btn btn-jones-brown">GET DIRECTIONS</button>
         </div>
