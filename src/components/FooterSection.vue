@@ -40,7 +40,10 @@
       </div>
       <div class="row mt-5">
         <div class="col text-center">
-          <p style="font-size: 14px">&copy; {{ currentYear }} Designed by tumeloGraphicStudio</p>
+          <p style="font-size: 14px">
+            &copy; {{ currentYear }} Designed by
+            <a href="https://tumeloGraphicStudio.netlify.app">tumeloGraphicStudio</a>
+          </p>
         </div>
       </div>
     </div>

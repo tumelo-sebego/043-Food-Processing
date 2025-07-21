@@ -17,7 +17,7 @@
         <div class="col-md-6 h-100">
           <div class="text-center h-100">
             <img
-              src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+              src="../assets/images/store.jpg"
               alt="BBQ Restaurant Interior"
               class="img-fluid h-100"
               style="object-fit: cover"

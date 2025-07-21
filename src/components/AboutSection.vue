@@ -15,7 +15,7 @@
         <div class="col-md-6 image-column">
           <div class="text-center image-container h-100">
             <img
-              src="../assets/images/header.jpg"
+              src="../assets/images/about1.jpg"
               alt="BBQ Sauce Being Poured"
               class="img-fluid shadow-lg md-relative h-100"
               style="object-fit: cover"

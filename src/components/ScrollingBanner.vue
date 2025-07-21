@@ -34,7 +34,7 @@
 
 .marquee-container {
   display: flex;
-  animation: scroll 50s linear infinite;
+  animation: scroll 90s linear infinite;
   white-space: nowrap;
 }
 
