@@ -73,7 +73,7 @@ onUnmounted(() => {
     font-size: 3rem;
   }
   .container {
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
   .hero-section {
     padding-bottom: 5rem;
