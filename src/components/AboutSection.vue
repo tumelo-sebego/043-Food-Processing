@@ -8,7 +8,7 @@
             AT <span>403</span> FOOD<br />
             PROCESSING"
           </h1>
-          <p class="hero-subtitle">SINCE 1970... SOMETHING.</p>
+          <p class="hero-subtitle">SINCE 2018 — ROOTED IN EASTERN CAPE PRIDE.</p>
         </div>
       </div>
       <div class="row g-0 mt-5">
@@ -33,9 +33,13 @@
           </div>
           <div class="text-right mt-4">
             <p class="fs-5 mb-4 learn-more-text">
-              At 403 Food Processing, we take pride in our rich history of crafting exceptional food
-              products. Our journey began in 1970, and since then, we've been dedicated to
-              delivering quality and flavor that our customers love.
+              Founded by Siphelele Zekani in a small kitchen in East London, 043 Food Processing was
+              born out of a love for homemade cooking and bold, honest flavor. What began in 2018
+              with a few sauce bottles shared among friends has grown into a proudly South African
+              food brand—now available in major stores like SPAR. We believe the best sauces are
+              crafted, not mass-produced—using real ingredients, traditional methods, and a whole
+              lot of heart. Every bottle from 043 is a tribute to where we’re from, and to the meals
+              that bring us together.
             </p>
             <button class="btn btn-jones-brown">LEARN MORE</button>
           </div>

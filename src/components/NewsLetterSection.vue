@@ -8,9 +8,9 @@
             KNOW
           </h1>
           <p class="news-subtitle">
-            Get saucy secrets & deals.
+            Get flavor updates & hot deals.
             <br />
-            Straight from our kitchen.
+            Straight from the sauce source.
           </p>
         </div>
       </div>
