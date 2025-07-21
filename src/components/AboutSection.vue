@@ -1,26 +1,47 @@
 <template>
-  <section class="hero-section d-flex align-items-center">
-    <div class="container mt-md-5">
-      <div class="row align-items-center min-vh-100">
-        <div class="col-md-7 text-column">
-          <h1 class="hero-text mb-4">
-            MADE WITH LOVE<br />
+  <section class="about-section d-flex pb-5">
+    <div class="container my-md-5">
+      <div class="row">
+        <div class="col text-center text-column">
+          <h1 class="about-text mb-4">
+            "MADE WITH LOVE<br />
             AT <span>403</span> FOOD<br />
-            PROCESSING
+            PROCESSING"
           </h1>
           <p class="hero-subtitle">SINCE 1970... SOMETHING.</p>
         </div>
-        <div class="col-md-5 image-column">
+      </div>
+      <div class="row g-0 mt-5">
+        <div class="col-md-6 image-column">
           <div class="text-center image-container">
             <img
               src="../assets/images/header.jpg"
               alt="BBQ Sauce Being Poured"
               class="img-fluid shadow-lg md-relative"
-              style="max-height: 33rem; right: 6rem; object-fit: cover; transform: rotate(10deg)"
+              style="max-height: 33rem; right: 6rem; object-fit: cover;"
             />
           </div>
         </div>
-      </div>
+        <div class="col-md-6 image-column">
+          <div class="text-center image-container">
+            <img
+              src="../assets/images/about2.jpg"
+              alt="BBQ Sauce Being Poured"
+              class="img-fluid shadow-lg md-relative"
+              style="max-height: 33rem; object-fit: cover;"
+            />
+          </div>
+          <div class="text-right mt-4">
+            <p class="fs-5 mb-4 learn-more-text">
+              At 403 Food Processing, we take pride in our rich history of crafting exceptional
+              food products. Our journey began in 1970, and since then, we've been dedicated to
+              delivering quality and flavor that our customers love.
+            </p>
+            <button class="btn btn-jones-brown">LEARN MORE</button>
+
+          </div>
+        </div>
+      </div class="row g-0">
     </div>
   </section>
 </template>
@@ -32,7 +53,7 @@ import { updateFontSize } from '../utils/styleFunctions'
 // const heroText = ref<HTMLElement | null>(null)
 
 const updateHeroFontSize = () => {
-  updateFontSize('.hero-text', 6.9)
+  updateFontSize('.about-text', 6.9)
 }
 
 onMounted(() => {
@@ -46,10 +67,11 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-.hero-section {
+.about-section {
   min-height: 100vh;
   display: block;
   overflow: hidden;
+  background-color: #f1e8db;
 }
 .text-column {
   position: relative;
@@ -59,23 +81,27 @@ onUnmounted(() => {
   position: relative;
   z-index: 1;
 }
-.hero-text {
+
+.learn-more-text {
+  font-family: 'Poppins', sans-serif;
+}
+.about-text {
   font-size: 4rem;
   transition: font-size 0.5s ease-in-out;
 }
 
-.hero-text span {
-  color: white;
+.about-text span {
+  color: var(--jones-red);
 }
 
 @media (max-width: 768px) {
-  .hero-text {
+  .about-text {
     font-size: 3rem;
   }
   .container {
     margin-top: 4rem;
   }
-  .hero-section {
+  .about-section {
     padding-bottom: 5rem;
   }
   .image-container {
@@ -84,7 +110,7 @@ onUnmounted(() => {
 }
 
 @media (max-width: 576px) {
-  .hero-text {
+  .about-text {
     font-size: 2rem;
   }
 }
