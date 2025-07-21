@@ -19,6 +19,9 @@
     <LocationSection />
 
     <AboutSection />
+
+    <!-- Scrolling Banner -->
+    <ScrollingBanner />
   </div>
 </template>
 
