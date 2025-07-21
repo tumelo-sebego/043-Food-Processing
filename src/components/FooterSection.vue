@@ -1,30 +1,46 @@
 <template>
-  <footer class="footer-section py-5">
+  <footer class="footer-section pt-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <img src="../assets/logo.svg" alt="Logo" class="footer-logo mb-3" />
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h4>Products</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h4>Contact Us</h4>
+          <p class="mb-0">Questions?</p>
+          <p>
+            Call us at:
+            <a style="color: var(--jones-dark-red)" href="tel:+1234567890">+1 234 567 890</a>
+          </p>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h4>About Us</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h4>Orders</h4>
+          <p>Oder online or call our whatsapp number</p>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h4>Community</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h4>Socials</h4>
+          <p>Follow Us</p>
+          <a
+            class="d-block"
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-facebook-f"></i> Facebook
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
           <h4>Support</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>For support on all your questions, contact us with our email address</p>
+          <p>support@043foodprocessing.co.za</p>
         </div>
       </div>
       <div class="row mt-5">
         <div class="col text-center">
-          <p>&copy; {{ currentYear }} Designed by tumeloGraphicStudio</p>
+          <p style="font-size: 14px">&copy; {{ currentYear }} Designed by tumeloGraphicStudio</p>
         </div>
       </div>
     </div>
@@ -39,8 +55,8 @@ const currentYear = ref(new Date().getFullYear())
 
 <style scoped>
 .footer-section {
-  background-color: var(--jones-dark-red);
-  color: var(--vt-c-text-dark-2);
+  background-color: var(--jones-darker-brown);
+  color: var(--jones-cream);
 }
 
 .footer-logo {
@@ -49,7 +65,17 @@ const currentYear = ref(new Date().getFullYear())
 
 h4 {
   color: var(--vt-c-white);
-  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.footer-section p {
+  font-size: 14px !important;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  color: var(--jones-dark-red);
 }
 
 p {
@@ -57,6 +83,6 @@ p {
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 </style>

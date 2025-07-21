@@ -17,7 +17,7 @@
       <div class="row g-0 mt-5">
         <div class="col-12 d-flex justify-content-center">
           <div class="newsletter-wrapper">
-            <form class="newsletter-form mb-3">
+            <form class="newsletter-form mb-3 mb-md-0">
               <input type="email" placeholder="Enter your email" class="form-control" required />
             </form>
             <button class="btn btn-jones-brown">SUBSCRIBE</button>
