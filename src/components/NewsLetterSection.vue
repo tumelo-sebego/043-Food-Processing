@@ -1,6 +1,6 @@
 <template>
-  <section class="news-section d-flex pb-5">
-    <div class="container my-md-5">
+  <section class="news-section d-flex py-5">
+    <div class="container my-5">
       <div class="row">
         <div class="col title text-center text-column">
           <h1 class="news-text mb-4">
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="row g-0 mt-5">
-        <div class="col-md-9">
+        <div class="col-md-9 d-flex justify-content-center align-items-center">
           <form class="newsletter-form">
             <input type="email" placeholder="Enter your email" class="form-control mb-3" required />
           </form>
@@ -46,7 +46,6 @@ onUnmounted(() => {
 
 <style scoped>
 .news-section {
-  min-height: 100vh;
   display: block;
   overflow: hidden;
   background-color: var(--jones-dark-red);
@@ -74,6 +73,13 @@ onUnmounted(() => {
 
 .btn-jones-brown {
   background-color: var(--jones-darker-red);
+}
+
+.newsletter-form input {
+  padding: 1rem 2.5rem;
+  border-radius: 25px;
+  max-width: 16rem;
+  font-family: 'Poppins';
 }
 
 .title {
