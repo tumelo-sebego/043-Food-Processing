@@ -13,12 +13,12 @@
       </div>
       <div class="row g-0 mt-5">
         <div class="col-md-6 image-column">
-          <div class="text-center image-container">
+          <div class="text-center image-container h-100">
             <img
               src="../assets/images/header.jpg"
               alt="BBQ Sauce Being Poured"
-              class="img-fluid shadow-lg md-relative"
-              style="max-height: 33rem; right: 6rem; object-fit: cover;"
+              class="img-fluid shadow-lg md-relative h-100"
+              style="object-fit: cover"
             />
           </div>
         </div>
@@ -27,21 +27,20 @@
             <img
               src="../assets/images/about2.jpg"
               alt="BBQ Sauce Being Poured"
-              class="img-fluid shadow-lg md-relative"
-              style="max-height: 33rem; object-fit: cover;"
+              class="img-fluid shadow-lg"
+              style="max-height: 33rem; object-fit: cover"
             />
           </div>
           <div class="text-right mt-4">
             <p class="fs-5 mb-4 learn-more-text">
-              At 403 Food Processing, we take pride in our rich history of crafting exceptional
-              food products. Our journey began in 1970, and since then, we've been dedicated to
+              At 403 Food Processing, we take pride in our rich history of crafting exceptional food
+              products. Our journey began in 1970, and since then, we've been dedicated to
               delivering quality and flavor that our customers love.
             </p>
             <button class="btn btn-jones-brown">LEARN MORE</button>
-
           </div>
         </div>
-      </div class="row g-0">
+      </div>
     </div>
   </section>
 </template>
@@ -118,6 +117,7 @@ onUnmounted(() => {
 @media (min-width: 768px) {
   .md-relative {
     position: relative;
+    right: 4rem;
   }
 }
 </style>
