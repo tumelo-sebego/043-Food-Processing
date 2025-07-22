@@ -6,7 +6,7 @@
   >
     <div class="container">
       <a class="navbar-brand text-white" href="#">
-        <img src="../assets/black_logo-03.svg" alt="Logo" class="navbar-logo" />
+        <img src="../assets/images/white_logo.svg" alt="Logo" class="navbar-logo" />
       </a>
 
       <button

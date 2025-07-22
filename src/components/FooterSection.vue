@@ -3,7 +3,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <img src="../assets/black_logo.svg" alt="Logo" class="footer-logo mb-3" />
+          <img
+            src="../assets/images/white_logo.svg"
+            alt="Logo"
+            class="footer-logo mb-3"
+            style="color: white"
+          />
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
           <h4>Contact Us</h4>
