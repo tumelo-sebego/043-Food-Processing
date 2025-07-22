@@ -60,6 +60,10 @@ const currentYear = ref(new Date().getFullYear())
 .footer-section {
   background-color: var(--jones-darker-brown);
   color: var(--jones-cream);
+  background-image: url('../assets/images/bg.png');
+  background-size: auto;
+  background-repeat: repeat;
+  background-blend-mode: multiply;
 }
 
 .footer-logo {

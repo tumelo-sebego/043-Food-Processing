@@ -20,11 +20,6 @@ p {
   font-size: 1.125rem;
   /* line-height: 1.75; */
 }
-.hero-section {
-  background: linear-gradient(135deg, var(--jones-red) 0%, var(--jones-dark-red) 100%);
-  min-height: 100vh;
-  color: white;
-}
 
 .hero-text {
   color: #1d1d1b;

@@ -47,7 +47,9 @@ onUnmounted(() => {
 
 <style scoped>
 .hero-section {
+  background: linear-gradient(135deg, var(--jones-red) 0%, var(--jones-dark-red) 100%);
   min-height: 100vh;
+  color: white;
   display: block;
   overflow: hidden;
 }

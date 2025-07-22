@@ -46,3 +46,4 @@ onUnmounted(() => {
   window.removeEventListener('resize', updateLocationTitleFontSizeHandler)
 })
 </script>
+<style scoped></style>
