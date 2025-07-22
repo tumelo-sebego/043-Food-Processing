@@ -6,8 +6,7 @@
   >
     <div class="container">
       <a class="navbar-brand text-white" href="#">
-        <i class="bi bi-fire me-2"></i>
-        403
+        <img src="../assets/black_logo-03.svg" alt="Logo" class="navbar-logo" />
       </a>
 
       <button
