@@ -15,7 +15,7 @@
           <p class="mb-0">Questions?</p>
           <p>
             Call us at:
-            <a style="color: var(--jones-dark-red)" href="tel:+1234567890">+1 234 567 890</a>
+            <a style="color: var(--jones-dark-red)" href="tel:+27632986337">+27 63 298 6337</a>
           </p>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
@@ -27,20 +27,24 @@
           <p>Follow Us</p>
           <a
             class="d-block"
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/043Eatcafe/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i class="fab fa-facebook-f"></i> Facebook
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/043foodprocessing/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="fab fa-instagram"></i> Instagram
           </a>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
           <h4>Support</h4>
           <p>For support on all your questions, contact us with our email address</p>
-          <p>support@043foodprocessing.co.za</p>
+          <p>sipelelezekani@gmail.com</p>
         </div>
       </div>
       <div class="row mt-5">
