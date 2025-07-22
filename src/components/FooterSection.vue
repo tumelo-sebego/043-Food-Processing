@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <img
-            src="../assets/images/white_logo.svg"
+            src="../assets/images/footer_logo.svg"
             alt="Logo"
             class="footer-logo mb-3"
             style="color: white"
